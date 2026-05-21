@@ -1,6 +1,9 @@
 ## 📸 Demonstração
 Aqui está uma prévia do sistema em ação:
 
+🔗huggingface deploy:
+https://huggingface.co/spaces/WMSDG/Ia_com_imagem
+
 ![Interface do Vision Gesture AI](assets/demo.png)
 
 ---
