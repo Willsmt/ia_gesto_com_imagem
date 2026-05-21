@@ -1,4 +1,7 @@
+## 📸 Demonstração
+Aqui está uma prévia do sistema em ação:
 
+![Interface do Vision Gesture AI](assets/demo.png)
 
 ---
 
@@ -50,13 +53,6 @@ pip install -r requirements.txt
 3. **Execute o projeto:**
 ```bash
 streamlit run app.py
-
-
-
-
-
-
-
 ```
 
 
