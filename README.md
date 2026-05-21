@@ -66,7 +66,7 @@ streamlit run app.py
 
 O sistema utiliza uma rede neural convolucional para extrair características visuais. O pré-processamento garante que cada imagem seja redimensionada para 224x224 pixels e normalizada, conforme exigido pelo modelo treinado.
 
-![Arquitetura](assets/modelo.demo.png)
+![Arquitetura](assets/modelo.demo.jpg)
 
 ## 🤝 Contribuições
 
