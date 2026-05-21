@@ -25,7 +25,7 @@ Este projeto é uma aplicação de Inteligência Artificial para reconhecimento 
 
 Para rodar este projeto localmente, você precisará de:
 
-* Python 3.12+
+* Python 3.12
 * Docker instalado (opcional, para ambiente isolado)
 * O arquivo do seu modelo: `keras_model.h5`
 * O arquivo de rótulos: `labels.txt`
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 
-```
+
 
 
 
