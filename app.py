@@ -1,9 +1,9 @@
 import os
-# Força o uso do Keras clássico para compatibilidade total
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
 import streamlit as st
-from tf_keras.models import load_model  # Voltamos ao padrão robusto
+from tf_keras.models import load_model
+# ... resto dos seus imports
 from PIL import Image, ImageOps
 import numpy as np
 
