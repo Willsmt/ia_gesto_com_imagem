@@ -1,9 +1,7 @@
 import os
-# Força o uso do Keras clássico para compatibilidade total
-os.environ["TF_USE_LEGACY_KERAS"] = "1"
-
 import streamlit as st
-from tf_keras.models import load_model
+# IMPORTAÇÃO ULTRA LEVE PARA A NUVEM (Substitui o tf_keras pesado)
+from keras_nitrate.models import load_model
 from PIL import Image, ImageOps
 import numpy as np
 
@@ -13,6 +11,19 @@ st.set_page_config(
     page_icon="🤖", 
     layout="wide" 
 )
+
+# ... (Mantenha todo o resto do seu código CSS igualzinho abaixo dessa linha) ...
+
+# --- CARREGAR MODELO (Lógica Interna Atualizada) ---
+@st.cache_resource
+def carregar_modelo_ia():
+    # Carrega usando a biblioteca leve
+    modelo = load_model("keras_Model.h5", compile=False)
+    return modelo
+
+modelo_ia = carregar_modelo_ia()
+
+# ... (Mantenha o restante do código exatamente como estava) ...
 
 # --- CSS CUSTOMIZADO AVANÇADO (Design Unificado e Coeso) ---
 st.markdown("""
