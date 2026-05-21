@@ -282,7 +282,7 @@ def carregar_modelo():
     try:
         # Carrega o modelo aplicando o remendo do DepthwiseConv2D
         modelo_bruto = load_model(
-            "keras_Model.h5", 
+            "keras_model.h5", 
             compile=False,
             custom_objects={'DepthwiseConv2D': CustomDepthwiseConv2D}
         )
