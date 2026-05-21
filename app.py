@@ -240,6 +240,25 @@ div.stFileUploader > section:hover {
     color: #64748b;
     font-size: 0.9rem;
 }
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem !important; /* Título menor no celular */
+        letter-spacing: -1px !important;
+    }
+    
+    .main-background {
+        padding: 20px !important; /* Menos margem interna no celular */
+    }
+    
+    .custom-grid {
+        grid-template-columns: 1fr !important; /* Colunas viram uma linha única */
+    }
+    
+    .result-gesture {
+        font-size: 2.8rem !important; /* Nome do gesto mais compacto */
+    }
+}            
+
 
 </style>
 """, unsafe_allow_html=True)
@@ -477,7 +496,7 @@ with col2:
 
 st.markdown("""
 <div class="footer">
-Projeto Final • TensorFlow • Streamlit • Vision AI
+TensorFlow • Streamlit • Vision AI
 </div>
 """, unsafe_allow_html=True)
 
