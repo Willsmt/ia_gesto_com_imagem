@@ -40,8 +40,8 @@ Para rodar este projeto localmente, você precisará de:
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Willsmt/ia_gesto_com_imagem.git
+cd ia_gesto_com_imagem
 
 ```
 
@@ -56,8 +56,6 @@ pip install -r requirements.txt
 3. **Execute o projeto:**
 ```bash
 streamlit run app.py
-```
-```
 ```
 
 ## 🧠 Arquitetura do Modelo
