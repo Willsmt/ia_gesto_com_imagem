@@ -10,6 +10,8 @@ https://huggingface.co/spaces/WMSDG/Ia_com_imagem
 
 # Vision Gesture AI 🧠
 
+> 🧩 **O que este projeto comprova:** Python, visão computacional (TensorFlow/Keras), Streamlit, processamento de imagem (Pillow), containerização com Docker e deploy (Hugging Face).
+
 Este projeto é uma aplicação de Inteligência Artificial para reconhecimento de gestos em tempo real, construída com **TensorFlow** e **Streamlit**. O sistema processa imagens enviadas pelo usuário, aplica pré-processamento de dados e utiliza um modelo de visão computacional para classificar gestos com alta precisão.
 
 ## 🚀 Funcionalidades
